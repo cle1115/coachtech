@@ -1,0 +1,27 @@
+.mail {
+  background: #55bbbb;
+  position: relative;
+  width: 200px;
+  display: block;
+  padding: 18px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+.practice__btn::before {
+  content: "";
+  position: absolute;
+  background: url(../img/mail.svg)no-repeat;
+}
+
+.practice__btn::after {
+  content: "";
+  position: absolute;
+  background: url(..img/download__icon.svg)no-repeat;
+
+}
